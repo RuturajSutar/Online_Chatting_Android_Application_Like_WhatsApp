@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/gradient_registration">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"></Space>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registration"
+                android:textSize="40dp"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:textStyle="bold"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="100dp"></Space>
+
+            <EditText
+                android:id="@+id/nameEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Username"
+                android:layout_gravity="center_horizontal"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"></Space>
+
+            <EditText
+                android:id="@+id/mobileEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone"
+                android:hint="Mobile Number"
+                android:layout_gravity="center_horizontal"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"></Space>
+
+            <EditText
+                android:id="@+id/emailEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:hint="Email"
+                android:layout_gravity="center_horizontal"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"></Space>
+
+            <EditText
+                android:id="@+id/passEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:layout_gravity="center_horizontal"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"></Space>
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:layout_gravity="center_horizontal"
+                android:background="#FD9600"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

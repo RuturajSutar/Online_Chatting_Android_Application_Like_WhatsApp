@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "882995132022",
+    "project_id": "sms-magic-assignment-2-ruturaj",
+    "storage_bucket": "sms-magic-assignment-2-ruturaj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882995132022:android:d4034e257d997d1b52d157",
+        "android_client_info": {
+          "package_name": "com.starkindustries.smsmagicassignment2conversationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882995132022-2bv1lrbgvkbonp8lsqed8l94ju4r5eqf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.starkindustries.smsmagicassignment2conversationapp",
+            "certificate_hash": "8f4a3f5a79c636dfe8b3ec14d5096b600a1f55ec"
+          }
+        },
+        {
+          "client_id": "882995132022-p033f80ckpgup0u059ljvokjscpcfpi7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP0HznTJb_35II2izeuOQjzwT2VRMtqzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882995132022-p033f80ckpgup0u059ljvokjscpcfpi7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
